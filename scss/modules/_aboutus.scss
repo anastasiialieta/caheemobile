@@ -1,0 +1,55 @@
+.aboutus {
+	min-height: 700px;
+	height: 100%;
+	background: #02b6b6;
+	@media (min-width: 320px) and (max-width: 480px) {
+  width: 750px;
+  position: relative;
+  height: 900px;
+}
+	&__img-wrapper {
+		min-height: 700px;
+		display: flex;
+		align-items: center;
+		
+	}
+}
+
+.aboutus-title {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	@media (min-width: 320px) and (max-width: 480px) {
+
+}
+	&__title {
+		font-weight: 700;
+		font-size: 90px;
+		line-height: .9;
+		padding-bottom: 20px;
+		@media (min-width: 320px) and (max-width: 480px) {
+position: absolute;
+top: 10%;
+right: -40%;
+width: 100vh;
+}
+	}
+}
+.aboutus__img {
+	@media (min-width: 320px) and (max-width: 480px) {
+top: 70%;
+left: 35%;
+width: 400px;
+  position: absolute;
+}
+}
+.aboutus-title__desc {
+@media (min-width: 320px) and (max-width: 480px) {
+position: absolute;
+top: 30%;
+left: -85%;
+right: 45%;
+}	
+}
